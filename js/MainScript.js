@@ -57,8 +57,8 @@
     }
 };
 
-$(document).on('deviceready', function () {
-//$(document).ready(function () {
+//$(document).on('deviceready', function () {
+$(document).ready(function () {
     var $loginButton = $('#login a');
     var $loginStatus = $('#login p');
 
